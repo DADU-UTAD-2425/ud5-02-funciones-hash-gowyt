@@ -31,6 +31,7 @@ public class Main {
 				}
 			} while (!sonIguales);
 			System.out.println("Fin del programa");
+			sc.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
